@@ -33,7 +33,7 @@ const tempConverter = (choice, value) => {
       const kelvin = (5 / 9) * (value - 32) + 273;
       console.log(`${value} \u00B0F is equal to ${kelvin.toFixed(2)} K`);
       break;
-      break;
+
       defualt: console.log('Wrong Input');
   }
 };
